@@ -3,15 +3,15 @@
 # OCUNET3 helper program for MacOS X
 # k-abe
 
+PATH='/sbin:/usr/sbin:/usr/bin:/bin'
+AUTHURL='https://webauth.nw.cii.osaka-cu.ac.jp:8443/'
+
 # we need root privilege to run "ipconfig set"
 if (( `id -u` != 0 )); then
     echo "usage: sudo $0" >&2
     exit 1
 fi
 
-PATH='/sbin:/usr/sbin:/usr/bin:/bin'
-AUTHURL='https://webauth.nw.cii.osaka-cu.ac.jp:8443/'
-   
 function get_interfaces () {
     eths='';
     for i in `ifconfig -l`; do
