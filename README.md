@@ -26,4 +26,4 @@
 
 root 権限で動く bash script を JavaScript for Automation (JXA) でラップしているだけです．
 
-bash script の実体は `ocunet-helper.app/Contents/Resources/Scripts/ocunet3-helper.sh` にあります．また，スクリプトエディタで`ocunet3-helper.app`を開くとJXAの内容が確認できます．
+bash script の実体は [ocunet-helper.app/Contents/Resources/Scripts/ocunet3-helper.sh](https://github.com/ktabe/ocunet3-helper/blob/master/ocunet3-helper.app/Contents/Resources/Scripts/ocunet3-helper.sh) にあります．また，スクリプトエディタで`ocunet3-helper.app`を開くとJXAの内容が確認できます．
