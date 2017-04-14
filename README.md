@@ -10,7 +10,7 @@
 ## 使い方
 
 - `ocunet3-helper.app` をダブルクリックで起動します
-- 起動時と終了時にパスワードが聞かれるので入れて下さい．　これは内部的に root ユーザで動作しているためです．
+- 起動時と終了時にパスワードが聞かれるので入れて下さい．これは内部的に root ユーザで動作しているためです．
 
 ## 効能
 
@@ -20,4 +20,10 @@
 
 ## 互換性
 
-- 動作は MacOS 10.11 (El Capitan) および macOS 10.12 (Sierra) で確認しています．
+動作は MacOS 10.11 (El Capitan) および macOS 10.12 (Sierra) で確認しています．
+
+## プログラムの内容
+
+root 権限で動く bash script を JavaScript for Automation (JXA) でラップしているだけです．
+
+bash script の実体は `ocunet-helper.app/Contents/Resources/Scripts/ocunet3-helper.sh` にあります．また，スクリプトエディタで`ocunet3-helper.app`を開くとJXAの内容が確認できます．
